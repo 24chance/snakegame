@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    color: #a5a4a4;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.res{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 38em;
+}
+
+p{
+    color: #a5a4a4;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas{
+    margin: 10px;
+    border-radius: 5px;
+}
